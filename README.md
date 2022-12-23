@@ -30,6 +30,9 @@ Install project dependancies with : npm i
 1. npm run test:e2e:report
 2. Cucumber report gets launched automatically
 
+![Screenshot 2022-12-23 at 3 16 54 PM](https://user-images.githubusercontent.com/85440725/209313982-1ed3a187-71e8-4771-99bf-50e2da68aee8.png)
+
+
 ## Circle CI
 
 **_ yet to be done _**
