@@ -15,13 +15,13 @@
   "author": "Sab",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.27.1",
     "@cucumber/cucumber": "8.8.0",
     "@cucumber/pretty-formatter": "1.0.0",
+    "@playwright/test": "^1.29.1",
+    "cucumber-html-reporter": "5.5.0",
     "dotenv": "16.0.3",
     "env-cmd": "10.1.0",
     "fs": "0.0.1-security",
-    "cucumber-html-reporter": "5.5.0",
-    "playwright": "1.27.1"
+    "playwright": "^1.29.1"
   }
 }

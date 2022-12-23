@@ -57,7 +57,7 @@ After(async (scenario) => {
     await page.waitForTimeout(3000)
     const videoName = await page.video().path()
     fs.rename(videoName, './video/' + scenario.pickle.name + '.webm',
-        async () => await console.log('File is renamed as' + scenario.pickle.name + '.webm'))
+        async () => await console.log('File is renamed as ' + scenario.pickle.name + '.webm'))
     await global.page.close()
     await global.context.close()
 })
