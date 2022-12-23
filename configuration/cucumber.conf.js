@@ -13,7 +13,7 @@ BeforeAll(async () => {
         case "firefox":
             console.log('Firefox is being launched')
             global.browser = await firefox.launch({
-                headless: false,
+                headless: true,
                 slowMo: 1000,
             })
             break
