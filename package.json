@@ -1,0 +1,27 @@
+{
+  "name": "Playwright_BDD",
+  "version": "1.0.0",
+  "description": "Playwright integrated with Cucumber written in BDD",
+  "main": "index.js",
+  "scripts": {
+    "report": "node configuration/htmlReportGenerator.js",
+    "test:e2e:report": "cucumber-js --require configuration/cucumber.conf.js --require configuration/cucumber.js --require tests/step-definitions/**/*.js --require tests/features/**/*.js -f summary -f json:./report/cucumber_report.json --format html:./report/cucumber_report.html --format summary --format @cucumber/pretty-formatter --no-strict --publish-quiet tests/features && node configuration/htmlReportGenerator.js"
+  },
+  "keywords": [
+    "Playwright",
+    "node",
+    "cucumber"
+  ],
+  "author": "Sab",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.27.1",
+    "@cucumber/cucumber": "8.8.0",
+    "@cucumber/pretty-formatter": "1.0.0",
+    "dotenv": "16.0.3",
+    "env-cmd": "10.1.0",
+    "fs": "0.0.1-security",
+    "cucumber-html-reporter": "5.5.0",
+    "playwright": "1.27.1"
+  }
+}

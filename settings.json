@@ -1,0 +1,6 @@
+{
+    "editor.formatOnSave": true,
+    "cucumberautocomplete.steps": ["tests/step-definitions/**/*.js"],
+    "cucumberautocomplete.syncfeatures": ["./features/**/*feature"],
+    "cucumberautocomplete.strictGherkinCompletion": true
+}
